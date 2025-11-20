@@ -30,7 +30,7 @@ def k8s_create_deployment(name: str = typer.Argument(..., help="Deployment name"
     """Create a simple Kubernetes Deployment manifest and print it."""
     import yaml
 
-    deployment = {
+    manifest = {
         "apiVersion": "apps/v1",
         "kind": "Deployment",
         "metadata": {"name": name},

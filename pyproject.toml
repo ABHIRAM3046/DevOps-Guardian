@@ -1,2 +1,20 @@
+[project]
+name = "devops-guardian"
+version = "0.1.0"
+description = "DevOps Guardian - DevOps Helper CLI + AI Log Analyzer"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "typer[all]==0.9.0",
+    "click==8.1.7",
+    "rich==13.5.0",
+    "python-dotenv==1.0.0",
+    "PyYAML==6.0.1"
+]
+
 [project.scripts]
-devops-guardian = "devops-guardian.cli:app"
+devops-guardian = "devops_guardian.cli:app"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

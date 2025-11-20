@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.cfg
+devops_guardian/__init__.py
+devops_guardian/__main__.py
+devops_guardian/cli.py
+devops_guardian/utils.py
+devops_guardian.egg-info/PKG-INFO
+devops_guardian.egg-info/SOURCES.txt
+devops_guardian.egg-info/dependency_links.txt
+devops_guardian.egg-info/entry_points.txt
+devops_guardian.egg-info/requires.txt
+devops_guardian.egg-info/top_level.txt
+tests/tests_cli.py

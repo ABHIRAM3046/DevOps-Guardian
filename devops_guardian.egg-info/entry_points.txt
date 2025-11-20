@@ -1,0 +1,2 @@
+[console_scripts]
+devops_guardian = devops_guardian.cli:app

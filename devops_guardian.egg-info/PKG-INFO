@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: devops-guardian
+Version: 0.1.0
+Summary: DevOps Guardian - DevOps Helper CLI + AI Log Analyzer
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: typer[all]==0.9.0
+Requires-Dist: click==8.1.7
+Requires-Dist: rich==13.5.0
+Requires-Dist: python-dotenv==1.0.0
+Requires-Dist: PyYAML==6.0.1
+
+# DevOps Guardian
+
+DevOps Guardian = DevOps Helper CLI + AI Log Analyzer (prototype).
+
+## Week 1
+- Basic project layout
+- Typer-based CLI skeleton
+- Virtualenv and requirements
+
+### Quickstart
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python -m devops-guardian version

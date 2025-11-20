@@ -1,0 +1,2 @@
+[project.scripts]
+devops-guardian = "devops-guardian.cli:app"

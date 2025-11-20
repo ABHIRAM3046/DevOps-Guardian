@@ -12,6 +12,10 @@ dependencies = [
     "PyYAML==6.0.1"
 ]
 
+[tool.setuptools.packages.find]
+include = ["devops_guardian"]
+exclude = ["tests", "k8s", "infra", "terraform", "scripts"]
+
 [project.scripts]
 devops-guardian = "devops_guardian.cli:app"
 
